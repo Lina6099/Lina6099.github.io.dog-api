@@ -5,26 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LinaBS</title>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
-
-<script>
-
-    $(function() {
-
-
-   var dogs = [];
-
-   $.getJSON('api-dog.json', function(data) {
-       $.each(data., function(i, f) {
-          var tblRow = "<tr>" + "<td>" + f.maker + "</td>" +
-           "<td>" + f.year + "</td>" + "<td>" + f.engine + "</td>" + "</tr>"
-           $(tblRow).appendTo("#userdata tbody");
-     });
-
-   });
-
-});
-</script>
+    
 </head>
 <body>
     
